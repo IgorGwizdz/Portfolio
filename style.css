@@ -1,0 +1,321 @@
+@font-face{
+    font-family: 'AikaraExpanded';
+    src: url('akira_expanded/Akira\ Expanded\ Demo.otf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bc);
+    color: #3F5B79;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: url('img/normalCursor-portfolio.svg'), auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'AikaraExpanded';
+    font-size: 40px;
+    color: #5773FF;
+    margin: 0px;
+    width: fit-content;
+}
+
+:root{
+    --bc: #080E15;
+    --main-tekst: #5773FF;
+    --spetial: #956CC1;
+}
+
+header{
+    display: flex;
+    padding-inline: 21px;
+    padding-block: 25px;
+    justify-content: space-between;
+    background-color: var(--bc);
+    border-bottom: solid 1px white;
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-family: "Gotu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:hover, a:hover{
+    cursor: url('img/cursorClick-portfolio.svg'), auto;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Gotu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#heroHoverImg{
+    max-width: 307px;
+    max-height: 411px;
+    position: absolute;
+    right: 197px;
+    top: 210px;
+}
+
+.hoverToBack:hover{
+    z-index: -10;
+}
+
+.g{
+    filter: invert(80%);
+    opacity: 50%;
+}
+
+.hero{
+    padding-block: 200px;
+    padding-inline: 198px;
+}
+
+h1{
+    font-size: 63px;
+}
+
+p{
+    margin: 0;
+    max-width: 230px;
+    font-size: 16px;
+    color: #3F5B79;
+}
+
+.titleRight{
+    display: flex;
+    float: right;
+    flex-direction: column;
+}
+
+.swirl{
+    max-width: 272px;
+}
+
+.title{
+    padding-top: 120px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28.77px;
+    margin-left: auto;
+}
+
+.about{
+    padding-inline: 198px;
+    padding-bottom: 200px;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.longTekst{
+    max-width: none;
+    font-size: 14px;
+    color: #3F5B79;
+}
+
+.portfolio{
+    padding-inline: 198px;
+}
+
+.portfolioTekst{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 46px;
+}
+
+.portfolioP{
+    max-width: none;
+}
+
+.projectsImg{
+    width: 20rem;
+    height: 12rem;
+    object-fit: cover;
+    image-rendering: crisp-edges;
+}
+
+.hP{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1507px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.pp{
+    max-width: none;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.contact{
+    padding-inline: 198px;
+    margin-top: 174px;
+    display: flex;
+    justify-content: space-between;
+    gap: 99px;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    justify-content: space-between;
+}
+
+.contactBox{
+    background-color: #5773FF;
+    max-width: 690px;
+    padding: 20px 6rem 23px 21px;
+}
+
+h6{
+    color: #080E15;
+    font-size: 20px;
+    font-family: 'proxima nova';
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    max-height: 180px;
+    padding: 50px 198px;
+    margin-top: 90px;
+    justify-content: space-between;
+    background-image: linear-gradient(#956CC1, #6024A1);
+}
+
+.footerTitle{
+    color: white;
+    font-family: 'AikaraExpanded';
+    max-width: none;
+    font-size: 22.75px;
+}
+
+.footerRowOne{
+    max-width: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerRowTwo{
+    max-width: 409px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.icons{
+    max-width: 20px;
+    max-height: 20px
+}
+
+.footerMenu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footerRowTwo>*{
+    width: fit-content;
+}
+
+.verticalTwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 278.5px;
+}
+
+.unset{
+    max-width: none;
+    color: white;
+    font-size: 14px;
+}
+
+input{
+    color: white;
+    background-color: #080E15;
+    border: none;
+    border-radius: 2px;
+    line-height: auto;
+}
+
+.input{
+    color: #080E15;
+}
+
+.mainInput{
+    margin-top: 20px;
+}
+
+#second{
+    width: 376px;
+    height: 77px;
+    line-height: 10px;
+}
+
+#first{
+    height: 24px;
+    width: 150px;
+}
+.columnsBox{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
+
+textarea{
+    background-color: #080E15;
+    max-height: 77px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+}
+
+.secInput{
+    margin-bottom: -10px;
+}
+
+.spacer{
+    width: 100%;
+    margin-top: -10rem;
+    margin-bottom: 89px;
+    user-select: none;
+}
+
+img{
+    -webkit-user-drag: none;
+}
+
+#hoverImg:hover{
+    cursor: url('img/cursorHover-portfolio.svg'), auto;
+}
