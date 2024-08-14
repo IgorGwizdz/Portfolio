@@ -22,6 +22,70 @@ h1,h2,h3,h4,h5,h6{
     width: fit-content;
 }
 
+.I{
+    font-family: "capucine-web", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 95px;
+}
+
+.G{
+    font-family: "Black And White Picture", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.O{
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.R{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 85px;
+
+}
+
+.background{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.backgroundAbout{
+    position: absolute;
+    right: 50px;
+    margin-top: -200px;
+}
+
+.backgroundContact{
+    position: absolute;
+    margin-top: -300px;
+    left: 20px;
+}
+
+span{
+    text-transform: uppercase;
+    color: #956CC1;
+    height: fit-content;
+}
+
+h2{
+    margin-top: -30px;
+    font-size: 55px;
+    max-width: 355px;
+}
+
+.heroP{
+    max-width: 315px;
+}
+
 :root{
     --bc: #080E15;
     --main-tekst: #5773FF;
